@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Compstuff</class>
+ <widget class="QWidget" name="Compstuff">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>366</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>331</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Operation</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="Elemstuff">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>331</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Element</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Inspection</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Frequency</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Hours</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Months</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>HCW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DCW</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>C_Tach</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NDH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>NDD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>T_rem</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Note</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="infostuff">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>210</y>
+     <width>361</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>401</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Please enter the updated info</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submi">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>320</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

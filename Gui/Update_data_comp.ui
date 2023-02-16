@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Compstuff</class>
+ <widget class="QWidget" name="Compstuff">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>366</width>
+    <height>384</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>50</y>
+     <width>331</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Component</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="Elemstuff">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>120</y>
+     <width>331</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Select Element</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Item</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>P_No</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>S_No</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RY</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>RH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Tot_I</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Past_T</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Curr_time</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>AF_Hours</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L_Rem</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Date_rep</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Next_inspH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Next_insp</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Type_mjr</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="infostuff">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>210</y>
+     <width>361</width>
+     <height>101</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>401</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Please enter the updated info</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submi">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>320</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

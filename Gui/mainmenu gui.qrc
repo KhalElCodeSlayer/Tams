@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="mainmenu">
+    <file>plane image.jpg</file>
+  </qresource>
+</RCC>
